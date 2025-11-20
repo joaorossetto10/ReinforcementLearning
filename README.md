@@ -5,7 +5,7 @@ Reinforcement Learning – IA Project
 ![License](https://img.shields.io/badge/License-Educational-green)
 
 <p align="center">
-  <img src="assets/preview.png" width="450">
+  <img src="assets/images/preview.png" width="450">
 </p>
 
 -----------------------------------------------------------------------------------------------
