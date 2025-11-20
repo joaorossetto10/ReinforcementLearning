@@ -56,17 +56,17 @@ Modo	Descrição:
 
 💰 Sistema de Recompensas
 
-Evento	                     Recompensa
+• Evento	                     Recompensa
 
-Andar	                          -1
+• Andar	                          -1
 
-Coletar suprimento	            +10
+• Coletar suprimento	            +10
 
-Chegar à saída	                +20
+• Chegar à saída	                +20
 
-Ser atacado por zumbi	          -10
+• Ser atacado por zumbi	          -10
 
-Ir a porta sem coletar tudo	    -1
+• Ir a porta sem coletar tudo	    -1
 
 -----------------------------------------------------------------------------------------------
 
@@ -89,14 +89,14 @@ Ir a porta sem coletar tudo	    -1
 ▶️ Como Executar
 
 1. Clone o repositório:
-2. 
+
    git clone https://github.com/joaorossetto10/ReinforcementLearning.git
    
-4. Instale dependências:
-5. 
+2. Instale dependências:
+ 
    pip install pygame
    
-7. Execute:
+3. Execute:
 
    python main.py
 
@@ -123,6 +123,7 @@ GitHub: https://github.com/joaorossetto10
 -----------------------------------------------------------------------------------------------
 
 🎓 Créditos
+
 Baseado nas orientações do Prof. Lucas Bucior. Frozen Lake e Q-Learning serviram como referência.
 
 -----------------------------------------------------------------------------------------------
