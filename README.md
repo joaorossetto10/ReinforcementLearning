@@ -1,4 +1,4 @@
-Reinforcement Learning – IA Project
+<h1 align="center">Reinforcement Learning – IA Project</h1>
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
@@ -56,13 +56,13 @@ Modo	Descrição:
 
 💰 Sistema de Recompensas
 
-| Evento                      | Recompensa |
-| --------------------------- | ---------- |
-| Andar                       | -1         |
-| Coletar suprimento          | +10        |
-| Chegar à saída              | +20        |
-| Ser atacado por zumbi       | -10        |
-| Ir à porta sem coletar tudo | -1         |
+| Evento | Recompensa |
+|--------|------------|
+| Andar | -1 |
+| Coletar suprimento | +10 |
+| Chegar à saída | +20 |
+| Ser atacado por zumbi | -10 |
+| Ir à porta sem coletar tudo | -1 |
 
 -----------------------------------------------------------------------------------------------
 
