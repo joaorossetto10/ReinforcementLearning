@@ -56,17 +56,13 @@ Modo	Descrição:
 
 💰 Sistema de Recompensas
 
-• Evento	                     Recompensa
-
-• Andar	                          -1
-
-• Coletar suprimento	            +10
-
-• Chegar à saída	                +20
-
-• Ser atacado por zumbi	          -10
-
-• Ir a porta sem coletar tudo	    -1
+| Evento                      | Recompensa |
+| --------------------------- | ---------- |
+| Andar                       | -1         |
+| Coletar suprimento          | +10        |
+| Chegar à saída              | +20        |
+| Ser atacado por zumbi       | -10        |
+| Ir à porta sem coletar tudo | -1         |
 
 -----------------------------------------------------------------------------------------------
 
