@@ -8,10 +8,12 @@ Reinforcement Learning – IA Project
   <img src="assets/images/preview.png" width="450">
 </p>
 
------------------------------------------------------------------------------------------------
-Projeto desenvolvido para a disciplina de Inteligência Artificial (URI Erechim – 2025/2),
-ministrada pelo professor Lucas Bucior. O objetivo é treinar um agente capaz de navegar 
-em um grid, coletar suprimentos, evitar zumbis e alcançar a área segura utilizando Q-Learning.
+--------------------------------------------------------------------
+Projeto desenvolvido para a disciplina de Inteligência Artificial
+(URI Erechim – 2025/2), ministrada pelo professor Lucas Bucior. 
+O objetivo é treinar um agente capaz de navegar em um grid, 
+coletar suprimentos, evitar zumbis e alcançar a área segura 
+utilizando Q-Learning.
 
 🎯 Objetivo Geral
 
@@ -21,8 +23,7 @@ Treinar um agente inteligente capaz de:
 • Minimizar o número de passos
 • Atingir a área segura com a maior recompensa possível
 
------------------------------------------------------------------------------------------------
-
+--------------------------------------------------------------------
 🛠 Tecnologias Utilizadas
 
 • Python 3.12
@@ -34,32 +35,37 @@ Treinar um agente inteligente capaz de:
 
 🌎 Modos de Ambiente
 
-Modo	Descrição
-A	Mapa fixo 1 – grid manual
-B	Mapa fixo 2 – grid manual
-CUSTOM	Mapa definido pelo usuário
-RANDOM	Mapa totalmente aleatório
+Modo	Descrição:
+• A	Mapa fixo 1 – grid manual
+• B	Mapa fixo 2 – grid manual
+• CUSTOM	Mapa definido pelo usuário
+• RANDOM	Mapa totalmente aleatório
 
 -----------------------------------------------------------------------------------------------
 
 💰 Sistema de Recompensas
 
-Evento	Recompensa
-Andar	-1
-Coletar suprimento	+10
-Chegar à saída	+20
-Ser atacado por zumbi	-10
-Tentar sair sem coletar tudo	-1
+Evento	                     Recompensa
+Andar	                          -1
+Coletar suprimento	            +10
+Chegar à saída	                +20
+Ser atacado por zumbi	          -10
+Ir a porta sem coletar tudo	    -1
 
 -----------------------------------------------------------------------------------------------
 
 📁 Estrutura do Projeto
 
 • main.py – Executa, treina e testa o agente
+
 • simulator.py – Gerencia o ambiente e o grid
+
 • learner.py – Implementa o Q-Learning
+
 • utils.py – Funções auxiliares
+
 • assets/ – Imagens
+
 • README.md – Documentação do projeto
 
 -----------------------------------------------------------------------------------------------
