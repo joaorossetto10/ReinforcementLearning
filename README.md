@@ -18,17 +18,24 @@ utilizando Q-Learning.
 🎯 Objetivo Geral
 
 Treinar um agente inteligente capaz de:
+
 • Coletar todos os suprimentos
+
 • Evitar zumbis e paredes
+
 • Minimizar o número de passos
+
 • Atingir a área segura com a maior recompensa possível
 
 --------------------------------------------------------------------
 🛠 Tecnologias Utilizadas
 
 • Python 3.12
+
 • Pygame
+
 • Reinforcement Learning (Q-Learning)
+
 • Próprio motor de simulação
 
 -----------------------------------------------------------------------------------------------
@@ -36,9 +43,13 @@ Treinar um agente inteligente capaz de:
 🌎 Modos de Ambiente
 
 Modo	Descrição:
+
 • A	Mapa fixo 1 – grid manual
+
 • B	Mapa fixo 2 – grid manual
+
 • CUSTOM	Mapa definido pelo usuário
+
 • RANDOM	Mapa totalmente aleatório
 
 -----------------------------------------------------------------------------------------------
@@ -46,10 +57,15 @@ Modo	Descrição:
 💰 Sistema de Recompensas
 
 Evento	                     Recompensa
+
 Andar	                          -1
+
 Coletar suprimento	            +10
+
 Chegar à saída	                +20
+
 Ser atacado por zumbi	          -10
+
 Ir a porta sem coletar tudo	    -1
 
 -----------------------------------------------------------------------------------------------
@@ -73,24 +89,35 @@ Ir a porta sem coletar tudo	    -1
 ▶️ Como Executar
 
 1. Clone o repositório:
+2. 
    git clone https://github.com/joaorossetto10/ReinforcementLearning.git
-2. Instale dependências:
+   
+4. Instale dependências:
+5. 
    pip install pygame
-3. Execute:
+   
+7. Execute:
+
    python main.py
 
 -----------------------------------------------------------------------------------------------
    
 🏆 Resultados Esperados
+
 • Coletar todos os suprimentos
+
 • Evitar os zumbis
+
 • Terminar com alta recompensa (ex.: 80 pontos)
+
 • Seguir o caminho ótimo aprendido
 
 -----------------------------------------------------------------------------------------------
 
 👤 Autor
+
 João Vitor Rossetto
+
 GitHub: https://github.com/joaorossetto10
 
 -----------------------------------------------------------------------------------------------
