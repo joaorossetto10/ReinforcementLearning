@@ -11,7 +11,7 @@ from learner import LearningAgent
 #   "CUSTOM"  -> grid definido manualmente em CUSTOM_MAP
 #   "RANDOM"  -> grid aleatório
 # ============================================================
-ENV_MODE = "B"
+ENV_MODE = "CUSTOM"
 
 # ------------------------------------------------------------
 # Grid CUSTOM (usado somente se ENV_MODE == "CUSTOM")
